@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "Rtree.h"
 int main(int, char**) {
-    std::cout << "Hello, world!\n";
+    Rtree tree(5);
 }
